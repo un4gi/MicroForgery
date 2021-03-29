@@ -11,6 +11,5 @@ fi
 
 TARGET="https://$1/MicroStrategy/servlet/taskProc?taskId=shortURL&taskEnv=xml&taskContentType=json&srcURL="
 PROTO="http://"
-TINY=$(curl "https://tinyurl.com/api-create.php?url=$2" | awk '{ print substr( $0, 9 ) } ')
+TINY=$(curl "https://tinyurl.com/api-create.php?url=$2" 2>/dev/null| awk '{ print substr( $0, 9 ) } ')
 curl -k "$TARGET$PROTO$TINY"
-done
