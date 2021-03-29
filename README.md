@@ -8,5 +8,5 @@ POC for SSRF in MicroStrategy taskProc servlet. Inspired by Bipin Jitiya
 `MicroForgery.sh vulnerablesite.com http://192.168.1.1:8080`
 
 ## References:
-https://www.thetechplatform.com/post/how-i-made-31500-by-submitting-a-bug-to-facebook
-https://medium.com/@win3zz/how-i-made-31500-by-submitting-a-bug-to-facebook-d31bb046e204
+- https://www.thetechplatform.com/post/how-i-made-31500-by-submitting-a-bug-to-facebook
+- https://medium.com/@win3zz/how-i-made-31500-by-submitting-a-bug-to-facebook-d31bb046e204
