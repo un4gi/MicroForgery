@@ -4,7 +4,7 @@
 # Author: Tony West (@Un4gi)
 # un4gi.io | github.com/un4gi | twitter.com/un4gii
 
-if [[ "$1" == "-h" || "$1" == "" || "$2" == "" || "$2" == "-h" ]; then
+if [[ "$1" == "-h" || "$1" == "" || "$2" == "" || "$2" == "-h" ]]; then
     echo "Usage: $0 vulnerableDomain targetURL"
     exit 0
 fi
