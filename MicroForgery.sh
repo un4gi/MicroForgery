@@ -5,7 +5,7 @@
 # un4gi.io | github.com/un4gi | twitter.com/un4gii
 
 if [[ "$1" == "-h" || "$1" == "" || "$2" == "" || "$2" == "-h" ]; then
-    echo "Usage: `MicroForgery $0` vulnerableDomain targetURL"
+    echo "Usage: $0 vulnerableDomain targetURL"
     exit 0
 fi
 
