@@ -2,7 +2,6 @@
 # MicroStrategy taskProc servlet SSRF POC
 # Only for use with express permission of the system owner!
 # Author: Tony West (@Un4gi)
-# un4gi.io | github.com/un4gi | twitter.com/un4gii
 
 if [[ "$1" == "-h" || "$1" == "" || "$2" == "" || "$2" == "-h" ]]; then
     echo "Usage: $0 vulnerableDomain targetURL"
